@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container" style="margin-top: 20px;">
+        <div class="card">
+            <div class="card-header">Add ToDo's</div>
+            <div class="card-body">
+                <form action="" id="todo-form">
+                    <input type="text" name="newtodo" id="newtodo" class="form-control" placeholder="Enter a new ToDo">
+                    <hr>
+                    <button class="btn btn-danger" type="submit">Add new ToDo</button>
+                </form>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">My ToDo's</h5>
+                <div class="form">
+                    <input type="text" name="filtertodo" id = "filtertodo" class="form-control" placeholder="Search ToDo">
+                </div>
+                <hr>
+                <ul class="list-group">
+                    <!-- <li class="list-group-item d-flex justify-content-between">
+                        todo example
+                        <a href="#" id = "todelete" > <i class="fa-solid fa-delete-left" style="color: #ff004c;"></i> </a>
+                    </li> -->
+                </ul>
+                <hr>
+                <a href="#" class="btn btn-secondary" id = "clearall">Clear All ToDo's</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">Trash </div>
+            <div class="card-body">
+                <ul class="list-group" >
+                    <!-- <li class="list-group-item d-flex justify-content-between" >
+                        deletedtodo example
+                        <a href="#" id="torestore"><i class="fa-solid fa-upload"></i></a>
+                    </li> -->
+                </ul>
+                <hr>
+                <a href="#" class="btn btn-primary" id = "cleartrash">Clear Trash</a>
+                <a href="#" class="btn btn-primary" id = "restorealltrash" >Restore Trash</a>
+            </div>
+        </div>
+    </div>    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="test3.js"></script>
+</body>
+</html>
